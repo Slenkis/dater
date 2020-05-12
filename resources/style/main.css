@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(194, 167, 74, 0.45);
+    color: #2c1f1f;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.flex {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+
+}
+
+.item1 {
+    font-size: 21em;
+}
+
+.item2 {
+    font-size: 10em;
+}
