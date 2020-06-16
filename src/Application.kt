@@ -16,8 +16,9 @@ import kotlinx.html.link
 import java.time.LocalDate
 
 fun main() {
+    val port = System.getenv("PORT")?.toInt() ?: 8080
     embeddedServer(
-        Netty, watchPaths = listOf("dater"), port = 8080,
+        Netty, watchPaths = listOf("dater"), port = port,
         module = Application::module
     ).apply {
         start(wait = true)
