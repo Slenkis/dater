@@ -42,6 +42,7 @@ dependencies {
 
 task stage {
     dependsOn installDist
+
 }
 compileKotlin {
     kotlinOptions {
